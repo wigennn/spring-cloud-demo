@@ -4,6 +4,7 @@ spring cloud 组件搭建完整系统
 ![tech_structure](docs/imgs/tech_structure.png)
 
 ## 2.网络架构
+![NET_STRUCTURE](docs/imgs/net_structure.PNG)
 
 ## 3.技术选型
 * 注册中心 Eureka
@@ -17,12 +18,13 @@ spring cloud 组件搭建完整系统
 
 ## 4.组件服务
 ### 4.1 Eureka
-各个服务注册
+各个服务注册与发现
     
 ### 4.2 Gateway
 * 请求转发
 * 限流
 * 熔断
+* token认证
 
 ### 4.3 auth
 * 认证 security

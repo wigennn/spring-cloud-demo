@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 import reactor.core.publisher.Mono;
 
 /**
- * @author 18070900
+ *
  */
 @Configuration
 public class RateLimiterConfig {

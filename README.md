@@ -25,6 +25,8 @@ spring cloud 组件搭建完整系统
 * 限流
 * 熔断
 * token认证
+用户请求登陆，网关调用认证中心服务生成token，客户端再携带token请求调用，网关校验token继而转发下游服务。时序图如下：
+![登陆时序图](docs/imgs/登陆时序图.png)
 
 ### 4.3 auth
 * 认证 security

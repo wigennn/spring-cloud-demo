@@ -1,5 +1,5 @@
 # spring-cloud-demo
-spring cloud 组件搭建完整系统
+spring cloud 脚手架，搭建基本的服务，后续只需添加业务服务即可。
 ## 1.技术架构
 ![tech_structure](docs/imgs/tech_structure.png)
 

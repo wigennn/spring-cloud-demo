@@ -15,7 +15,7 @@ public class LoginController {
         return Response.builder().build();
     }
 
-    @RequestMapping("/loginOut")
+    @RequestMapping("/logOut")
     public Response loginOut() {
         return Response.builder().build();
     }

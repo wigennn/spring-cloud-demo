@@ -6,7 +6,7 @@ import org.springframework.context.annotation.Configuration;
 import reactor.core.publisher.Mono;
 
 /**
- *
+ * 限流
  */
 @Configuration
 public class RateLimiterConfig {

@@ -14,18 +14,24 @@ import org.springframework.context.annotation.Bean;
 @RefreshScope
 public class GatewayCenterApplication {
 
-    @Value("${authUri:localhost:3000}")
+    /**
+     * 配置中心获取
+     */
+    @Value("${authUri}")
     private String authUri;
 
     public static void main(String[] args) {
         SpringApplication.run(GatewayCenterApplication.class, args);
     }
 
+    /**
+     * uri route
+     */
     @Bean
     public RouteLocator routeLocator(RouteLocatorBuilder builder) {
         return builder.routes()
                 .route("auth-center", predicateSpec -> predicateSpec.order(0)
-                        .path("/auth/**").uri(authUri))
+                        .path("/auth/**").uri(authUri)) /*转发auth-center*/
                 .build();
     }
 }

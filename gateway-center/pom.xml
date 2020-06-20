@@ -72,11 +72,11 @@
         </dependency>
 
         <!--认证中心api-->
-        <dependency>
+<!--        <dependency>
             <groupId>com.wigen</groupId>
             <artifactId>auth-api</artifactId>
             <version>0.0.1-SNAPSHOT</version>
-        </dependency>
+        </dependency>-->
     </dependencies>
 
     <dependencyManagement>
